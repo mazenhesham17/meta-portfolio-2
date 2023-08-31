@@ -8,9 +8,9 @@ const Card = ({ title, description, imageSrc }) => {
     <VStack bgColor={"white"} borderRadius={"10px"} >
       <Image src={imageSrc} borderRadius={"10px"}></Image>
       <div style={{"padding":"10px"}}>
-      <Heading placement={"left"} size={"md"} color={"black"} textAlign={"left"} >{title}</Heading>
+      <Heading  size={"md"} color={"black"} textAlign={"left"} >{title}</Heading>
       <Text color={"grey"}>{description}</Text>
-      <HStack placement={"left"} color={"black"}>
+      <HStack  color={"black"}>
         <Text>See more</Text>
         <FontAwesomeIcon icon={faArrowRight} size="1x" />
       </HStack>

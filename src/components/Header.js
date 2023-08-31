@@ -66,7 +66,7 @@ const Header = () => {
           <nav>
             {socials.map(e => {
               return (
-                <a href={e.url}> <FontAwesomeIcon icon={e.icon} size="2x"></FontAwesomeIcon> </a>
+                <a href={e.url} key={e.url}> <FontAwesomeIcon icon={e.icon} size="2x"></FontAwesomeIcon> </a>
               )
             })}
           </nav>
